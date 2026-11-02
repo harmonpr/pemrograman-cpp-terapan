@@ -9,7 +9,7 @@ Repositori ini berisi semua program yang dibahas di buku, dikelompokkan per bab,
 Ada dua cara. Cara paling mudah adalah menekan tombol hijau **Code** di halaman ini, lalu pilih **Download ZIP** dan ekstrak ke folder kerja, misalnya `C:\latihan\pemrograman-cpp-terapan`. Cara kedua, jika Git sudah terpasang:
 
 ```powershell
-git clone https://github.com/[nama-pengguna]/pemrograman-cpp-terapan.git
+git clone https://github.com/harmonpr/pemrograman-cpp-terapan.git
 ```
 
 ## Isi repositori
