@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(Bab06)
+
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+link_libraries(${OpenCV_LIBS})
+
+add_executable(versi_opencv versi_opencv.cpp)
+add_executable(mat_dasar mat_dasar.cpp)
+add_executable(tampil_gambar tampil_gambar.cpp)
+add_executable(abu_abu abu_abu.cpp)
+add_executable(baca_piksel baca_piksel.cpp)
+add_executable(negatif_manual negatif_manual.cpp)
+add_executable(info_gambar info_gambar.cpp)
+add_executable(abu_manual abu_manual.cpp)
+add_executable(colorscan_v06 colorscan_v06.cpp)

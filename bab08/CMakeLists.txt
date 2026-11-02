@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+project(Bab08)
+
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+link_libraries(${OpenCV_LIBS})
+
+add_executable(baca_csv baca_csv.cpp)
+add_executable(colorscan_v08 colorscan_v08.cpp)
+add_executable(daftar_folder daftar_folder.cpp)
+add_executable(konversi_folder konversi_folder.cpp)
+add_executable(palet_csv palet_csv.cpp)
+add_executable(simpan_format simpan_format.cpp)
+add_executable(tangani_error tangani_error.cpp)
+add_executable(tulis_csv tulis_csv.cpp)
