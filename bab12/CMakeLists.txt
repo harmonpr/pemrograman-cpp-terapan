@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(Bab12)
+
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+link_libraries(${OpenCV_LIBS})
+
+add_executable(ambang_trackbar ambang_trackbar.cpp)
+add_executable(campur_trackbar campur_trackbar.cpp)
+add_executable(colorscan_v12 colorscan_v12.cpp)
+add_executable(efek_kamera efek_kamera.cpp)
+add_executable(klik_piksel klik_piksel.cpp)
+add_executable(lacak_warna lacak_warna.cpp)
+add_executable(pemilih_warna pemilih_warna.cpp)
+add_executable(putar_video putar_video.cpp)
+add_executable(cek_video cek_video.cpp)

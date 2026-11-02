@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(Bab10)
+
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+link_libraries(${OpenCV_LIBS})
+
+add_executable(alamat_memori alamat_memori.cpp)
+add_executable(colorscan_v10 colorscan_v10.cpp)
+add_executable(detektor_unik detektor_unik.cpp)
+add_executable(dinamis dinamis.cpp)
+add_executable(kecepatan kecepatan.cpp)
+add_executable(memori_mat memori_mat.cpp)
+add_executable(pointer_baris pointer_baris.cpp)
+add_executable(pointer_dasar pointer_dasar.cpp)
+add_executable(salinan_mat salinan_mat.cpp)

@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(Bab11)
+
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+link_libraries(${OpenCV_LIBS})
+
+add_executable(algoritma algoritma.cpp)
+add_executable(colorscan_v11 colorscan_v11.cpp)
+add_executable(hitung_objek hitung_objek.cpp)
+add_executable(map_warna map_warna.cpp)
+add_executable(queue_antrian queue_antrian.cpp)
+add_executable(set_warna set_warna.cpp)
+add_executable(stack_urungkan stack_urungkan.cpp)
+add_executable(statistik_abu statistik_abu.cpp)
+add_executable(warna_dominan warna_dominan.cpp)
